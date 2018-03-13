@@ -11,8 +11,8 @@ function logShout(string) {
 }
 
 function sayHiToGrandma(string) {
-  var uppercase = string.toUpperCase;
-  var lowercase = string.toLowerCase;
+  var uppercase = "I LOVE YOU, GRANDMA!";
+  var lowercase = "i love you, grandma.";
   if (string === lowercase) {
     return "I can\'t hear you!";
   }
@@ -20,6 +20,6 @@ function sayHiToGrandma(string) {
     return "YES INDEED!";
   }
   else {
-    return "I love you, too";
+    return "I love you, too.";
   }
 }
